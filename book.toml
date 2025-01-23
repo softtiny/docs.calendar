@@ -4,3 +4,7 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Calendar"
+
+[output.html]
+additional-css = ["mermaid.css"]
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
