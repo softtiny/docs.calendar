@@ -13,4 +13,20 @@ function patchMermaidCodeElementClass() {
 }
 
 patchMermaidCodeElementClass();
-mermaid.initialize({startOnLoad:true,theme:"forest"});
+mermaid.initialize({
+    startOnLoad:true,
+    //theme:"forest",
+    //look: "classic",
+    //look: "handDrawn",
+    deterministicIds: false,
+    darkMode: true,
+    themeVariables:{
+
+        //primaryColor: "#00FF00",
+    },
+    gantt:{
+        deterministicIds: false,
+        fontSize: 18,
+        sectionFontSize: 18,
+    },
+});
