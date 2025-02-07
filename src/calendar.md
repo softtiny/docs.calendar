@@ -5,6 +5,7 @@ gantt
     dateFormat MM-DD
     axisFormat %B
     section Year-2025
+        Quick Sort      :03-01, 31d
         Greedy          :02-01, 29d
         Derivative          :01-01, 31d
     section Year-2024
