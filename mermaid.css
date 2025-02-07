@@ -1,3 +1,12 @@
 code.mermaid>svg{
     background: #FFFFFF;
 }
+
+#content code.mermaid .grid .tick {
+    opacity: 1;
+    font-weight: bold;
+}
+#content code.mermaid .today {
+  stroke-width: 8;
+  stroke: rgba(33,133,208, .45);
+}

@@ -1,11 +1,12 @@
 
 ```mermaid
+
 gantt
     title Calendar Months
     dateFormat MM-DD
     axisFormat %B
     section Year-2025
-        Quick Sort      :03-01, 31d
+        Quick Sort      :active, 03-01, 31d
         Greedy          :02-01, 29d
         Derivative          :01-01, 31d
     section Year-2024
@@ -35,9 +36,9 @@ gantt
         Matrix Addition[Entrywise sum] :02-01, 29d
         Dot Product[multiply matrices] :01-01, 31d
     section Year-2022
-        Transpose of a Matrix :12-01, 31d
-        Binomial Coefficient :11-01, 30d
-        Convert Infix to Postfix Expression :10-01, 31d
-        Boyer-Moore String-Search :09-01, 30d
-        Evaluation Postfix Expression :08-01, 31d
+        Transpose of a Matrix :done, 12-01, 31d
+        Binomial Coefficient :done, 11-01, 30d
+        Convert Infix to Postfix Expression :done, 10-01, 31d
+        Boyer-Moore String-Search :done, 09-01, 30d
+        Evaluation Postfix Expression :done, 08-01, 31d
 ```
