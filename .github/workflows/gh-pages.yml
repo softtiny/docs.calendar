@@ -16,7 +16,7 @@ jobs:
       - run: mdbook build
       - uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           external_repository: kunkka2/kunkka2.github.io
           publish_branch: main
           publish_dir: ./book
