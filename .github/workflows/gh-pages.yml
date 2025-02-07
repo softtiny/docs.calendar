@@ -8,9 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-rust@v3
-        with:
-          toolchain: stable
+      - uses: dtolnay/rust-toolchain@stable
       - run: cargo install mdbook --no-default-features --features search
       - run: mdbook build
       - uses: peaceiris/actions-gh-pages@v3
