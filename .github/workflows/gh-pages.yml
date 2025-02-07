@@ -20,4 +20,4 @@ jobs:
           external_repository: kunkka2/kunkka2.github.io
           publish_branch: main
           publish_dir: ./book
-          full_commit_message: :rocket: ${{ github.event.head_commit.message }}
+          full_commit_message: ":rocket: ${{ github.event.head_commit.message }}"
