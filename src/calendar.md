@@ -8,7 +8,7 @@ gantt
     section Year-2025
         Quick Sort      :active, 03-01, 31d
         Greedy          :02-01, 29d
-        Derivative          :01-01, 31d
+        Derivative[f`(x)]          :01-01, 31d
     section Year-2024
         exponentiation operation(Power operation)[constant,variable terms,coefficient]  :12-01, 31d
         Hash table[Hash Function]  :11-01, 30d

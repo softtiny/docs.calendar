@@ -26,7 +26,5 @@ mermaid.initialize({
     },
     gantt:{
         deterministicIds: false,
-        fontSize: 18,
-        sectionFontSize: 18,
     },
 });
