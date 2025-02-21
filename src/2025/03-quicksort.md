@@ -45,17 +45,63 @@ quicksort_inplace(arr, 0, len(arr)-1)
 ## First, let's understand what happens at each partition step:
 ```python
 def partition(arr,low,high):
-    pivot = arr[high]  # 1 O(1) .$ \mathcal{O}(1)$
-    i = low - 1 # O(1)
+    pivot = arr[high]  # @1 O(1) .$ \mathcal{O}(1)$
+    i = low - 1 #  @1 O(1)
 
-    for j in range(low,high):  # 2 O(n) .$ \mathcal{O}(n) $
+    for j in range(low,high):  # @2 O(n) .$ \mathcal{O}(n) $
         if arr[j] <= pivot:
             i += 1
             arr[i], arr[j] = arr[j], arr[i]
+    arr[i+1], arr[high] = arr[high], arr[i+1] # @1 O(1)
+    return i+1
 ```
 - 1.$ \mathcal{O}(1)$
 - 2.$ \mathcal{O}(n)$
 
+## Let's analyze different cases:
+
+### Best Case:
+```
+Initial array: [5,2,8,1,9,3]
+Perfect partition each time:
+Level 1:        [2,1,3] [5] [8,9]    → n comparisons
+Level 2:        [1] [2] [3]  [8] [9]  → n/2 + n/2 comparisons
+Depth: log n levels
+
+Time Complexity = O(n log n)
+```
+- $ \mathcal{O}(nlogn) $
+
+### Average Case:
+
+```
+Each partition splits array into roughly equal parts:
+T(n) = T(n/2) + T(n/2) + n  (partition cost)
+     = 2T(n/2) + n
+
+Using Master Theorem:
+a = 2 (subproblems)
+b = 2 (size reduction)
+k = 1 (partition work)
+
+Time Complexity = O(n log n)
+```
+- $ \mathcal{O}(nlogn) $
+
+### Worst Case:
+
+```
+Already sorted array: [1,2,3,4,5]
+Uneven partitions each time:
+Level 1: [] [1] [2,3,4,5]    → n comparisons
+Level 2:    [] [2] [3,4,5]   → (n-1) comparisons
+Level 3:       [] [3] [4,5]  → (n-2) comparisons
+
+Sum = n + (n-1) + (n-2) + ... + 1
+    = n(n+1)/2
+Time Complexity = O(n²)
+```
+- $ \mathcal{O}(n^2) $
 
 # Chapter 1
 
