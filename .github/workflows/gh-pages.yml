@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   schedule:
-    - cron: "1 1 1,15 * *"
+    - cron: "1 8 7,21 * *"
   workflow_dispatch:
 
 
