@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   workflow_dispatch:
   schedule:
-    - cron: "12 8 7,21 * *"
+    - cron: "59 8 7,21 * *"
 
 
 jobs:
@@ -14,6 +14,7 @@ jobs:
       - uses: dtolnay/rust-toolchain@stable
       - name: mdbook add
         run: |
+          date
           cargo install mdbook --no-default-features --features search
           cargo install mdbook-katex
       - run: mdbook build
