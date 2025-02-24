@@ -4,8 +4,7 @@
 
 # Rules
 
-- $$ f(x) = x^n $$
-$$ f'(x) = n*x^{(n-1)} $$
-
-- $$ f(x) = n*x $$
-$$ f'(x) = n $$
+- $$ f(x) \enspace = \enspace x^n \\ 
+f'(x) \enspace = \enspace n*x^{(n-1)} \\
+f(x) \enspace = \enspace n*x \\
+f'(x) \enspace = \enspace n $$
