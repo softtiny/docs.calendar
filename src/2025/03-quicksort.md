@@ -139,6 +139,21 @@ Recurrence relation:
 - Best/Average: $$ T(n) \quad = \quad 2*T(\frac{n}{2}) + \mathcal{0}(n) $$ 
 - Worst: $$ T(n) \quad = \quad T(n-1) + \mathcal{O}(n) $$
 
+# Factors affecting time complexity:
+
+- Pivot selection strategy
+
+```python
+# Better pivot selection to avoid worst case
+def get_pivot(arr, low, high):
+    mid = (low + high) // 2
+    pivot = median([arr[low], arr[mid], arr[high]])
+    return pivot
+```
+- Data distribution
+- Initial array ordering
+- Handling of duplicate elements
+
 
 # Chapter 1
 
