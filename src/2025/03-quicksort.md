@@ -70,7 +70,7 @@ Depth: log n levels
 
 Time Complexity = O(n log n)
 ```
-- $ \mathcal{O}(nlogn) $
+- $ \mathcal{O}(n*\log_{10}{n}) $
 
 ### Average Case:
 
@@ -86,7 +86,7 @@ k = 1 (partition work)
 
 Time Complexity = O(n log n)
 ```
-- $ \mathcal{O}(nlogn) $
+- $ \mathcal{O}(n*\log_{10}{n}) $
 
 ### Worst Case:
 
@@ -102,6 +102,43 @@ Sum = n + (n-1) + (n-2) + ... + 1
 Time Complexity = O(n²)
 ```
 - $ \mathcal{O}(n^2) $
+
+##  Mathematical Breakdown:
+
+For average case:
+
+```
+T(n) = 2T(n/2) + n
+
+Recursion tree:
+Level 0:                n
+Level 1:           n/2     n/2
+Level 2:      n/4   n/4  n/4   n/4
+
+Work at each level = n
+Number of levels = log n
+Total work = n * log n
+```
+- Work at each level $ = n $
+- Number of levels $ = \log_{10}{n} $
+- Total work $ = n *  \log_{10}{n} $
+
+## Detailed breakdown of operations:
+
+```python
+def quicksort(arr, low, high):
+    if low < high:
+        # Partition operation: O(n)
+        pivot_index = partition(arr, low, high)
+
+        # Recursive calls
+        quicksort(arr, low, pivot_index - 1)   # T(k)
+```
+
+Recurrence relation:
+- Best/Average: $$ T(n) \quad = \quad 2*T(\frac{n}{2}) + \mathcal{0}(n) $$ 
+- Worst: $$ T(n) \quad = \quad T(n-1) + \mathcal{O}(n) $$
+
 
 # Chapter 1
 
