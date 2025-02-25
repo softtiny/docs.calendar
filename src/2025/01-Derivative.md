@@ -4,9 +4,9 @@
 
 # Rules
 
-$$\begin{align} 
-f(x) \enspace &= \enspace x^n \\ 
-f'(x) \enspace &= \enspace n*x^{(n-1)} \\
-f(x) \enspace &= \enspace n*x \\
-f'(x) \enspace &= \enspace n 
-\end{align}$$
+
+#### Power Rule:
+$$ x^n \qquad Derivative \qquad n*x^{(n-1)} $$ 
+
+### Line:
+$$ n*x \qquad Derivative \qquad n  $$
