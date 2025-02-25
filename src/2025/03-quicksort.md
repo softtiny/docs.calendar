@@ -136,7 +136,7 @@ def quicksort(arr, low, high):
 ```
 
 Recurrence relation:
-- Best/Average: $$ T(n) \quad = \quad 2*T(\frac{n}{2}) + \mathcal{0}(n) $$ 
+- Best/Average: $$ T(n) \quad = \quad 2*T(\frac{n}{2}) + \mathcal{O}(n) $$ 
 - Worst: $$ T(n) \quad = \quad T(n-1) + \mathcal{O}(n) $$
 
 # Factors affecting time complexity:
