@@ -10,3 +10,6 @@ $$ x^n \qquad Derivative \qquad n*x^{(n-1)} $$
 
 ### Line:
 $$ n*x \qquad Derivative \qquad n  $$
+
+### Sum Rule:
+$$ f(x) + g(x) \qquad  Derivative  \qquad f'(x) + g'(x) $$
