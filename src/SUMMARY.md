@@ -12,3 +12,8 @@
 - [YEAR 2024]()
   - [2024-12-Power-Operation](./2024/12-Power-Operation.md)
 
+---
+
+- [DEDICATED]()
+  - [Simple Demo From Ai](./dedicated/simple_demo_from_ai.md)
+
