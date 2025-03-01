@@ -13,3 +13,6 @@ $$ n*x \qquad Derivative \qquad n  $$
 
 ### Sum Rule:
 $$ f(x) + g(x) \qquad  Derivative  \qquad f'(x) + g'(x) $$
+
+### Chain Rule
+$$ f(g(x)) \qquad Derivative \qquad f'(g(x))*g'(x) $$
