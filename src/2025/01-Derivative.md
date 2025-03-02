@@ -16,3 +16,7 @@ $$ f(x) + g(x) \qquad  Derivative  \qquad f'(x) + g'(x) $$
 
 ### Chain Rule
 $$ f(g(x)) \qquad Derivative \qquad f'(g(x))*g'(x) $$
+
+### Trigonometry
+$$ sin(x) \qquad Derivative \qquad con(x) \\
+   cos(x) \qquad Derivative \qquad -sin(x) $$

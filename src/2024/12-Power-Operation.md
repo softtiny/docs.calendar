@@ -14,3 +14,6 @@ n = 1 or 2 or 3
 A ** n
 ```
 - \_\_pow\_\_ methods: $ x^n $
+- \_\_sub\_\_ methods: $ x - n$
+- \_\_rsub\_\_ methods: $ n - x %
+- \_\_neg\_\_ methods: $ -x $
