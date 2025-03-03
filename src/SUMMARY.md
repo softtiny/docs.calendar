@@ -11,6 +11,7 @@
   - [2025-01-derivative](./2025/01-Derivative.md)
 - [YEAR 2024]()
   - [2024-12-Power-Operation](./2024/12-Power-Operation.md)
+  - [2024-12-Hash-Table](./2024/11-Hash-table.md)
 
 ---
 
