@@ -17,3 +17,7 @@ A ** n
 - \_\_sub\_\_ methods: $ x - n$
 - \_\_rsub\_\_ methods: $ n - x %
 - \_\_neg\_\_ methods: $ -x $
+- \_\_sub\_\_ methods: $ x + n $
+- \_\_rsub\_\_ methods: $ n + x $
+- \_\_mul\_\_ methods: $ x * n $
+- \_\_rmul\_\_ methods: $ n * x $
