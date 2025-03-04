@@ -11,7 +11,9 @@
   - [2025-01-derivative](./2025/01-Derivative.md)
 - [YEAR 2024]()
   - [2024-12-Power-Operation](./2024/12-Power-Operation.md)
-  - [2024-12-Hash-Table](./2024/11-Hash-table.md)
+  - [2024-11-Hash-Table](./2024/11-Hash-table.md)
+  - [2024-10-Bucket Sort Or Bin Sort](./2024/10-BucketSort-or-BinSort.md)
+  - [2024-09-Encrypt-Decrypt](./2024/09-Encrypt-Decrypt.md)
 
 ---
 
