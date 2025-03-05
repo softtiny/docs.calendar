@@ -14,6 +14,7 @@
   - [2024-11-Hash-Table](./2024/11-Hash-table.md)
   - [2024-10-Bucket Sort Or Bin Sort](./2024/10-BucketSort-or-BinSort.md)
   - [2024-09-Encrypt-Decrypt](./2024/09-Encrypt-Decrypt.md)
+  - [2024-08-Table of prime factors](./2024/08-Table-of-prime-factors.md)
 
 ---
 
