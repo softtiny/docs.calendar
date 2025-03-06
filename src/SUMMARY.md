@@ -15,6 +15,7 @@
   - [2024-10-Bucket Sort Or Bin Sort](./2024/10-BucketSort-or-BinSort.md)
   - [2024-09-Encrypt-Decrypt](./2024/09-Encrypt-Decrypt.md)
   - [2024-08-Table of prime factors](./2024/08-Table-of-prime-factors.md)
+  - [2024-07-Bellman Ford Algorithm(find the shortest path or cycle)](./2024/07-Bellman-Ford-Algorithm.md)
 
 ---
 
