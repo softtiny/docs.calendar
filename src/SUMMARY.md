@@ -17,6 +17,7 @@
   - [2024-08-Table of prime factors](./2024/08-Table-of-prime-factors.md)
   - [2024-07-Bellman Ford Algorithm(find the shortest path or cycle)](./2024/07-Bellman-Ford-Algorithm.md)
   - [2024-06-Dijkstra's Algorithm(find the shortest path)](./2024/06-Dijkstra-algorithm.md)
+  - [2024-05-Graph is cyclic (Dose graph contains a cycle)](./2024/05-graph-is-cyclic.md)
 
 ---
 
