@@ -18,6 +18,7 @@
   - [2024-07-Bellman Ford Algorithm(find the shortest path or cycle)](./2024/07-Bellman-Ford-Algorithm.md)
   - [2024-06-Dijkstra's Algorithm(find the shortest path)](./2024/06-Dijkstra-algorithm.md)
   - [2024-05-Graph is cyclic (Dose graph contains a cycle)](./2024/05-graph-is-cyclic.md)
+  - [2024-04-Cross Product(Dimension 3)](./2024/04-cross-product.md)
 
 ---
 
