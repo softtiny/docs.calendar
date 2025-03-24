@@ -19,6 +19,7 @@
   - [2024-06-Dijkstra's Algorithm(find the shortest path)](./2024/06-Dijkstra-algorithm.md)
   - [2024-05-Graph is cyclic (Dose graph contains a cycle)](./2024/05-graph-is-cyclic.md)
   - [2024-04-Cross Product(Dimension 3)](./2024/04-cross-product.md)
+  - [2024-03-Point Line Distance(Dimension 3)](./2024/03-point-line-distance.md)
   - [2024-02-Depth First Search(DFS)](./2024/02-depth-first-search.md)
   - [2024-01-Breadth First Search(BFS)](./2024/01-breadth-first-search.md)
 
