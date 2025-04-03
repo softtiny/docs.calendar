@@ -28,3 +28,6 @@
 - [DEDICATED]()
   - [Simple Demo From Ai](./dedicated/simple_demo_from_ai.md)
 
+- [Demo]()
+  - [Simple - tools.py](./demos/tools.md)
+
