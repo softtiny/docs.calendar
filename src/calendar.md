@@ -6,7 +6,8 @@ gantt
     dateFormat MM-DD
     axisFormat %B
     section Year-2025
-        Find Most Frequent :04-01, 31d
+        Find Missing Number :05-01, 31d
+        Find Most Frequent :04-01, 30d
         Quick Sort      :active, 03-01, 31d
         Greedy          :02-01, 29d
         Derivative[f`(x)]          :01-01, 31d
