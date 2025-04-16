@@ -25,6 +25,7 @@
   - [2024-01-Breadth First Search(BFS)](./2024/01-breadth-first-search.md)
 - [YEAR 2023]()
   - [2023-12-Avl Tree Add Node](./2023/12-AvlTree-Add-Node.md)
+  - [2023-11-Avl Tree Right Left Rotations](./2023/11-AvlTree-Right-Left-Rotations.md)
 - [YEAR 2022]()
 
 ---
