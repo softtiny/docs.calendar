@@ -5,6 +5,7 @@
 ---
 
 - [YEAR 2025]()
+  - [2025-06-find-pattern-occurrences](./2025/06-find-pattern-occurrences.md)
   - [2025-05-find-missing-number](./2025/05-find-missing-number.md)
   - [2025-04-find-most-frequent](./2025/04-find-most-frequent.md)
   - [2025-03-quicksort](./2025/03-quicksort.md)
