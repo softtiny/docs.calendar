@@ -2,6 +2,7 @@
 
 ```python
 import unittest
+import random
 
 def IsA():
     return "A"
@@ -12,6 +13,8 @@ class BaseTestCase(unittest.TestCase):
     def test_ok(self):
         # Object Identity Confusion: If you’re using assertIs (which checks if two objects are the same, i.e., is), it will fail for separate objects even if their values are equal.
         self.assertEqual('A',BaseTestCase.checkfn())
+        for i in range(random.randint(100,300)):
+            self.assertEqual('A',BaseTestCase.checkfn())
 def test(IsA_fn):
     import types
     newm = types.ModuleType("newm")
