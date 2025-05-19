@@ -28,6 +28,7 @@
   - [2023-12-Avl Tree Add Node](./2023/12-AvlTree-Add-Node.md)
   - [2023-11-Avl Tree Right Left Rotations](./2023/11-AvlTree-Right-Left-Rotations.md)
   - [2023-10-Avl Tree Left Left Rotations](./2023/10-AvlTree-Left-Left-Rotations.md)
+  - [2023-09-Avl Tree Right Right Rotations](./2023/09-AvlTree-Right-Right-rotations.md)
 - [YEAR 2022]()
 
 ---
