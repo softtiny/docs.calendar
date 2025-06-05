@@ -37,6 +37,7 @@
 
 - [DEDICATED]()
   - [Simple Demo From Ai](./dedicated/simple_demo_from_ai.md)
+  - [Simple Demo 2025-06-05](./dedicated/simple_demo_20250605.md)
 
 - [Demo]()
   - [Simple - tools.py](./demos/tools.md)
