@@ -10,7 +10,7 @@ def IsA():
 class BaseTestCase(unittest.TestCase):
     def setUp(self):
         BaseTestCase.checkfn = getattr(BaseTestCase,'IsA',IsA)
-    def test_ok(self):
+    def test_IsA(self):
         # Object Identity Confusion: If you’re using assertIs (which checks if two objects are the same, i.e., is), it will fail for separate objects even if their values are equal.
         self.assertEqual('A',BaseTestCase.checkfn())
         for i in range(random.randint(100,300)):
