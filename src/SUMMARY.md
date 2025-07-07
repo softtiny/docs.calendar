@@ -32,6 +32,7 @@
   - [2023-09-Avl Tree Right Right Rotations](./2023/09-AvlTree-Right-Right-rotations.md)
   - [2023-08-Avl Tree Depth of notes](./2023/08-AvlTree-Depth-of-nodes.md)
   - [2023-07-Evaluation of Postfix Expression](./2023/07-Evaluation-of-Postfix-Expression.md)
+  - [2023-06-Tree find Successor](./2023/06-Tree-find-Successor.md)
 - [YEAR 2022]()
 
 ---
