@@ -6,6 +6,7 @@ gantt
     dateFormat MM-DD
     axisFormat %B
     section Year-2025
+        Test TestCase(LRUCacheTestCase) :08-01, 31d
         Sieve of Eratosthenes(Prime Number Generator)    :07-01, 31d
         Find Pattern occurrences :06-01, 30d
         Find Missing Number :05-01, 31d
