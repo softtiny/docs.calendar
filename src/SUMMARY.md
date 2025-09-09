@@ -5,6 +5,7 @@
 ---
 
 - [YEAR 2025]()
+  - [2025-10-Finding Pairs that Sum to Target](./2025/10-find-pairs.md)
   - [2025-09-Least Recently Used Cache(LRUCache)](./2025/09-LRUCache.md)
   - [2025-08-Test TestCase(LRUCacheTestCase)](./2025/08-Test-TestCase-LRUCacheTestCase.md)
   - [2025-07-Prime Number Generator (Sieve of Eratosthenes)](./2025/07-Sieve-of-Eratothenes.md)
