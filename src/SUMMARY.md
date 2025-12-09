@@ -4,7 +4,9 @@
 
 ---
 
+- [YEAR 2026]()
 - [YEAR 2025]()
+  - [2025-12-Maximum Subarray Sum - Kadane's Algorithm](./2025/12-max-subarray-sum.md)
   - [2025-11-Reverse Integer](./2025/11-reverse-integer.md)
   - [2025-10-Finding Pairs that Sum to Target](./2025/10-find-pairs.md)
   - [2025-09-Least Recently Used Cache(LRUCache)](./2025/09-LRUCache.md)

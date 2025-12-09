@@ -5,7 +5,9 @@ gantt
     title Calendar Months
     dateFormat MM-DD
     axisFormat %B
+    section Year-2026
     section Year-2025
+        Maximum Subarray Sum - Kadane's Algorithm:12-01, 31d
         Reverse Integer:11-01, 30d
         Finding Pairs that Sum to Target :10-01, 31d
         LRU(Least Recently Used) Cache :09-01, 30d
