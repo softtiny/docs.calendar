@@ -1,10 +1,14 @@
 # Summary
 
 [Calendar](./calendar.md)
+[Calendar-2025](./calendar-2025.md)
+[Calendar-2024](./calendar-2024.md)
+[Calendar-2023](./calendar-2023.md)
 
 ---
 
 - [YEAR 2026]()
+  - [2026-01-The Hamming weight - population count (popcount)](./2026/01-Hamming-weight.md)
 - [YEAR 2025]()
   - [2025-12-Maximum Subarray Sum - Kadane's Algorithm](./2025/12-max-subarray-sum.md)
   - [2025-11-Reverse Integer](./2025/11-reverse-integer.md)

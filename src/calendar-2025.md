@@ -5,8 +5,6 @@ gantt
     title Calendar Months
     dateFormat MM-DD
     axisFormat %B
-    section Year-2026
-        The Hamming weight - population count (popcount): 01-01, 31d
     section Year-2025
         Maximum Subarray Sum - Kadane's Algorithm:12-01, 31d
         Reverse Integer:11-01, 30d
