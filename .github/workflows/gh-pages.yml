@@ -19,7 +19,7 @@ jobs:
           git clone https://github.com/lzanini/mdbook-katex.git mdbook-katex
           cd mdbook-katex 
           cargo install --path . mdbook-katex
-          mdbook-katex supports
+          #mdbook-katex supports
       - run: mdbook build
       - run: cp static/* book/.
       - uses: peaceiris/actions-gh-pages@v3
