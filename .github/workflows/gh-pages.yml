@@ -17,6 +17,7 @@ jobs:
           date
           cargo install mdbook --no-default-features --features search
           cargo install mdbook-katex
+          mdbook-katex supports
       - run: mdbook build
       - run: cp static/* book/.
       - uses: peaceiris/actions-gh-pages@v3

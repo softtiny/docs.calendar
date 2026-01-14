@@ -18,3 +18,4 @@ enable = false
 
 [preprocessor.katex]
 after = ["links"]
+pre-render = false
