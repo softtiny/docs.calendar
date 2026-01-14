@@ -18,7 +18,7 @@ jobs:
           cargo install mdbook --no-default-features --features search
           git clone https://github.com/lzanini/mdbook-katex.git mdbook-katex
           cd mdbook-katex 
-          sed -i 's/mdbook-preprocessor = {version = "0.5.1"}/mdbook-preprocessor = {version = "0.5.2"}/g'
+          sed -i 's/mdbook-preprocessor = {version = "0.5.1"}/mdbook-preprocessor = {version = "0.5.2"}/g' Cargo.toml
           cargo install --path . mdbook-katex
           mdbook-katex supports
       - run: mdbook build
