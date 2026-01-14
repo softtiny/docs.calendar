@@ -9,7 +9,7 @@ title = "Calendar"
 additional-css = ["mermaid.css", "custom.css"]
 additional-js = ["mermaid.min.js", "mermaid-init.js"]
 git-repository-url = "https://github.com/softtiny/docs.calendar"
-git-repository-icon = "fas-code-fork"
+git-repository-icon = "fab-github"
 site-url="/"
 
 [output.html.print]
