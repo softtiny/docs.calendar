@@ -6,6 +6,9 @@ gantt
     dateFormat MM-DD
     axisFormat %B
     section Year-2026
+        Josephus problem: 04-01, 30d
+        Josephus problem: 03-01, 31d
+        Greatest common divisor(GCD): 02-01, 28d
         The Hamming weight - population count (popcount): 01-01, 31d
     section Year-2025
         Maximum Subarray Sum - Kadane's Algorithm:12-01, 31d

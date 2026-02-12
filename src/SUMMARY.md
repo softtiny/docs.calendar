@@ -8,6 +8,8 @@
 ---
 
 - [YEAR 2026]()
+  - [2026-03-Josephus problem](./2026/03-Josephus-problem.md)
+  - [2026-02-Greatest common divisor(GCD)](./2026/02-Greatest-common-divisor.md)
   - [2026-01-The Hamming weight - population count (popcount)](./2026/01-Hamming-weight.md)
 - [YEAR 2025]()
   - [2025-12-Maximum Subarray Sum - Kadane's Algorithm](./2025/12-max-subarray-sum.md)
