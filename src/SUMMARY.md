@@ -8,6 +8,7 @@
 ---
 
 - [YEAR 2026]()
+  - [2026-05-Determinant minors](./2026/05-Determinant-minors.md)
   - [2026-04-Josephus problem](./2026/04-Josephus-problem.md)
   - [2026-03-Josephus problem](./2026/03-Josephus-problem.md)
   - [2026-02-Greatest common divisor(GCD)](./2026/02-Greatest-common-divisor.md)

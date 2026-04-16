@@ -1,0 +1,4 @@
+# Determinant
+
+
+### minors
