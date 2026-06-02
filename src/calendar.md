@@ -6,6 +6,7 @@ gantt
     dateFormat MM-DD
     axisFormat %B
     section Year-2026
+        Majority Numbers: 06-01, 31d
         Determinant minors: 05-01, 31d
         Josephus problem: 04-01, 30d
         Josephus problem: 03-01, 31d
