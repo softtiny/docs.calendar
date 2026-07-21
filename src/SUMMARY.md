@@ -8,6 +8,7 @@
 ---
 
 - [YEAR 2026]()
+  - [2026-07-Climbing Stairs](./2026/07-Climbing-Stairs.md)
   - [2026-06-Majorit Numbers](./2026/06-Majority-Numbers.md)
   - [2026-05-Determinant minors](./2026/05-Determinant-minors.md)
   - [2026-04-Josephus problem](./2026/04-Josephus-problem.md)
