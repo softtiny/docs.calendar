@@ -6,6 +6,7 @@ gantt
     dateFormat MM-DD
     axisFormat %B
     section Year-2026
+        Two Sum: 08-01, 31d
         Climbing Stairs: 07-01, 31d
         Majority Numbers: 06-01, 30d
         Determinant minors: 05-01, 31d
