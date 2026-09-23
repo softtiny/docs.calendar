@@ -15,7 +15,7 @@ function patchMermaidCodeElementClass() {
 patchMermaidCodeElementClass();
 mermaid.initialize({
     startOnLoad:true,
-    theme:"forest",
+    //theme:"forest",
     themeCSS: `
     .mermaid .taskText, .mermaid .sectionTitle, .mermaid .theTitle {
       letter-spacing: 1.5px !important;
