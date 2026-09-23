@@ -8,6 +8,7 @@
 ---
 
 - [YEAR 2026]()
+  - [2026-10-Add Two Numbers](./2026/10-addTwoNumbers.md)
   - [2026-09-Three Sum](./2026/09-ThreeSumSort.md)
   - [2026-08-Two Sum](./2026/08-TwoSumSort.md)
   - [2026-07-Climbing Stairs](./2026/07-Climbing-Stairs.md)
