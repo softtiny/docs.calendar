@@ -6,6 +6,7 @@ gantt
     dateFormat MM-DD
     axisFormat %B
     section Year-2026
+        Median of Two Sorted Arrays of Different Sizes: active, 11-01, 30d
         add Two Numbers: 10-01, 31d
         Three Sum: 09-01, 30d
         Two Sum: 08-01, 31d
@@ -26,7 +27,7 @@ gantt
         Find Pattern occurrences :06-01, 30d
         Find Missing Number :05-01, 31d
         Find Most Frequent :04-01, 30d
-        Quick Sort      :active, 03-01, 31d
+        Quick Sort      :03-01, 31d
         Greedy          :02-01, 29d
         Derivative[f`(x)]          :01-01, 31d
 ```
